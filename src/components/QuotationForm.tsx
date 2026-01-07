@@ -13,7 +13,7 @@ export function QuotationForm() {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
-  phone: "9763672641",
+  phone: "8552815725",
     email: "",
     propertyType: "",
     budget: "",
@@ -69,7 +69,7 @@ ${formData.additionalRequirements}
 Please provide a detailed quotation for properties matching these requirements.
   `.trim();
 
-  window.open(`https://wa.me/919763672641?text=${encodeURIComponent(message)}`, "_blank");
+  window.open(`https://wa.me/918552815725?text=${encodeURIComponent(message)}`, "_blank");
     
     toast({
       title: "Quotation Request Sent!",
@@ -127,7 +127,7 @@ Please provide a detailed quotation for properties matching these requirements.
                     value={formData.phone}
                     onChange={(e) => setFormData(prev => ({ ...prev, phone: e.target.value }))}
                     className="bg-gray-700 border-gray-600 text-white text-sm"
-                    placeholder="9763672641"
+                    placeholder="8552815725"
                   />
                 </div>
 

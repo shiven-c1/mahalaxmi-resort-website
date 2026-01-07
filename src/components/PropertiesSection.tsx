@@ -35,7 +35,7 @@ export function PropertiesSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <button
-              onClick={() => window.open("tel:+919763672641", "_self")}
+              onClick={() => window.open("tel:+918552815725", "_self")}
               className="bg-yellow-500 text-black px-6 py-2 md:px-8 md:py-3 rounded-md text-sm md:text-base font-medium hover:bg-yellow-600 transition-all duration-300"
             >
               Call for More Properties
@@ -43,7 +43,7 @@ export function PropertiesSection() {
             <button
               onClick={() => {
                 const message = "Hi, I would like to see more properties from Mahalaxmi Developers.";
-                window.open(`https://wa.me/919763672641?text=${encodeURIComponent(message)}`, "_blank");
+                window.open(`https://wa.me/918552815725?text=${encodeURIComponent(message)}`, "_blank");
               }}
               className="bg-green-600 text-white px-6 py-2 md:px-8 md:py-3 rounded-md text-sm md:text-base font-medium hover:bg-green-700 transition-all duration-300"
             >

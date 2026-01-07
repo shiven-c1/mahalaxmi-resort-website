@@ -5,12 +5,12 @@ import { Phone, MessageCircle, MapPin, Mail, Clock, Building } from "lucide-reac
 
 export function ContactSection() {
   const handleCall = () => {
-  window.open("tel:+919763672641", "_self");
+  window.open("tel:+918552815725", "_self");
   };
 
   const handleWhatsApp = () => {
     const message = "Hi, I would like to schedule a site visit and get more information about your properties.";
-  window.open(`https://wa.me/919763672641?text=${encodeURIComponent(message)}`, "_blank");
+  window.open(`https://wa.me/918552815725?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -37,7 +37,7 @@ export function ContactSection() {
                   <div className="flex-1">
                     <h3 className="font-semibold text-white text-lg">Call Us Now</h3>
                     <p className="text-gray-400 text-sm md:text-base">Get instant assistance from our property experts</p>
-                    <p className="text-yellow-500 font-bold text-lg md:text-xl mt-1">97636 72641</p>
+                    <p className="text-yellow-500 font-bold text-lg md:text-xl mt-1">85528 15725</p>
                   </div>
                   <Button
                     onClick={handleCall}
@@ -58,7 +58,7 @@ export function ContactSection() {
                   <div className="flex-1">
                     <h3 className="font-semibold text-white text-lg">WhatsApp Chat</h3>
                     <p className="text-gray-400 text-sm md:text-base">Chat with us for quick responses and property updates</p>
-                    <p className="text-green-500 font-bold text-lg md:text-xl mt-1">97636 72641</p>
+                    <p className="text-green-500 font-bold text-lg md:text-xl mt-1">85528 15725</p>
                   </div>
                   <Button
                     onClick={handleWhatsApp}

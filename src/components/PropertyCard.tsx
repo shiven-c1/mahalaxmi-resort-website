@@ -36,7 +36,7 @@ export function PropertyCard({
   const navigate = useNavigate();
   
   const handleCall = () => {
-  window.open("tel:+919763672641", "_self");
+  window.open("tel:+918552815725", "_self");
   };
 
   const handleViewDetails = () => {
@@ -45,7 +45,7 @@ export function PropertyCard({
 
   const handleWhatsApp = () => {
     const message = `Hi, I am interested in this property: ${title}. Please share more details.`;
-  window.open(`https://wa.me/919763672641?text=${encodeURIComponent(message)}`, "_blank");
+  window.open(`https://wa.me/918552815725?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (

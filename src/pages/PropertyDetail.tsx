@@ -24,12 +24,12 @@ const PropertyDetail = () => {
   }
 
   const handleCall = () => {
-  window.open("tel:+919763672641", "_self");
+  window.open("tel:+918552815725", "_self");
   };
 
   const handleWhatsApp = () => {
     const message = `Hi, I am interested in this property: ${property.title}. Please share more details.`;
-  window.open(`https://wa.me/919763672641?text=${encodeURIComponent(message)}`, "_blank");
+  window.open(`https://wa.me/918552815725?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   const handleGetDirections = () => {
@@ -244,7 +244,7 @@ const PropertyDetail = () => {
 
                    <div className="text-center pt-4 border-t">
                      <p className="text-sm text-muted-foreground mb-2">Contact our property expert</p>
-                     <p className="font-semibold text-primary">9763672641</p>
+                      <p className="font-semibold text-primary">8552815725</p>
                      <p className="text-sm text-muted-foreground">Available 24/7</p>
                    </div>
                  </div>
